@@ -29,6 +29,17 @@ Chaque point peut inclure des **photos** et un **résumé** descriptif.
 
 ---
 
-## ⚙️ Architecture
+## 🧩 Roadmap MVP
 
-### Schéma simplifié
+| Status | Tâche | Type |
+|---------|--------|------|
+| ⏳ | Créer le repo + CI GitHub Actions | Tech |
+| ⏳ | Intégrer Leaflet + OSM sur Angular | Front |
+| ⏳ | Endpoint `/api/pins` (CRUD MongoDB) | Back |
+| ⏳ | Upload Cloudinary (photo + GPX) | Back |
+| ⏳ | Affichage GPX via leaflet-gpx | Front |
+| ⏳ | Auth utilisateur simple (JWT) | Back |
+| ⏳ | Déploiement sur Vercel + Render | Ops |
+
+💡 Chaque tâche doit être une **Issue GitHub** liée au **Project Kanban "MVP"** — Colonnes : `Todo` / `In Progress` / `Done`
+
